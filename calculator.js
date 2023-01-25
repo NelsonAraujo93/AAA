@@ -1,14 +1,25 @@
 module.exports = class Calculator {
+  constructor() {
+    this.result = 0;
+  }
+
   add(a, b) {
-    return a + b;
+    this.result = a + b;
+    return this.result;
   }
+
   subtract(a, b) {
-    return a - b;
+    this.result = a - b;
+    return this.result;
   }
+
   divide(a, b) {
-    return a / b;
+    this.result = a / b;
+    return this.result;
   }
+
   multiply(a, b) {
-    return a * b;
+    this.result = a * b;
+    return this.result;
   }
-}
+};

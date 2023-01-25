@@ -20,7 +20,7 @@ test('String reverse test(This is a reverse text) expected "txet esrever a si si
 });
 
 describe('Calculator', () => {
-  const calc = new Calculator;
+  const calc = new Calculator();
   test('addition 6 + 3 expected 9', () => {
     expect(calc.add(6, 3)).toBe(9);
   });

@@ -1,9 +1,8 @@
 const stringReverse = (string) => {
-   let splitString = string.split("");
-   let reverseSplit = splitString.reverse();
-   let reverseString = reverseSplit.join("");
-    
-   return reverseString;
-  }
-  
+  const splitString = string.split('');
+  const reverseSplit = splitString.reverse();
+  const reverseString = reverseSplit.join('');
+  return reverseString;
+};
+
 module.exports = stringReverse;
